@@ -14,7 +14,7 @@ public class Animal {
     return name;
   }
 
-  public int getAge() {
+  public int getSize() {
     return size;
   }
 
