@@ -3,7 +3,6 @@ package collection.list;
 import java.util.Arrays;
 
 public class MyArrayList<E> implements MyList<E> {
-
   private static final int DEFAULT_CAPACITY = 5; // Default initial capacity
   private Object[] elementData; // Internal array to store elements
   private int size = 0; // Current number of elements in the list
